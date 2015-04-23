@@ -14,6 +14,8 @@
 		3633C60E1AE8D96C00CF18E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3633C60D1AE8D96C00CF18E2 /* Images.xcassets */; };
 		3633C6111AE8D96C00CF18E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3633C60F1AE8D96C00CF18E2 /* LaunchScreen.xib */; };
 		3633C61D1AE8D96C00CF18E2 /* MLSmoothCornerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3633C61C1AE8D96C00CF18E2 /* MLSmoothCornerTests.m */; };
+		368A343D1AE8DF030002B059 /* Temp2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A343C1AE8DF030002B059 /* Temp2TableViewCell.m */; };
+		368A34401AE8E1A70002B059 /* UIView+MLSmoothCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A343F1AE8E1A70002B059 /* UIView+MLSmoothCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3633C6161AE8D96C00CF18E2 /* MLSmoothCornerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLSmoothCornerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3633C61B1AE8D96C00CF18E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3633C61C1AE8D96C00CF18E2 /* MLSmoothCornerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLSmoothCornerTests.m; sourceTree = "<group>"; };
+		368A343B1AE8DF030002B059 /* Temp2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temp2TableViewCell.h; sourceTree = "<group>"; };
+		368A343C1AE8DF030002B059 /* Temp2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temp2TableViewCell.m; sourceTree = "<group>"; };
+		368A343E1AE8E1A70002B059 /* UIView+MLSmoothCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLSmoothCorner.h"; sourceTree = "<group>"; };
+		368A343F1AE8E1A70002B059 /* UIView+MLSmoothCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLSmoothCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				3633C60D1AE8D96C00CF18E2 /* Images.xcassets */,
 				3633C60F1AE8D96C00CF18E2 /* LaunchScreen.xib */,
 				3633C6001AE8D96C00CF18E2 /* Supporting Files */,
+				368A343B1AE8DF030002B059 /* Temp2TableViewCell.h */,
+				368A343C1AE8DF030002B059 /* Temp2TableViewCell.m */,
+				368A343E1AE8E1A70002B059 /* UIView+MLSmoothCorner.h */,
+				368A343F1AE8E1A70002B059 /* UIView+MLSmoothCorner.m */,
 			);
 			path = MLSmoothCorner;
 			sourceTree = "<group>";
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368A343D1AE8DF030002B059 /* Temp2TableViewCell.m in Sources */,
 				3633C6091AE8D96C00CF18E2 /* ViewController.m in Sources */,
 				3633C6061AE8D96C00CF18E2 /* AppDelegate.m in Sources */,
 				3633C6031AE8D96C00CF18E2 /* main.m in Sources */,
+				368A34401AE8E1A70002B059 /* UIView+MLSmoothCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +359,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MLSmoothCorner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +371,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MLSmoothCorner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +432,7 @@
 				3633C6221AE8D96C00CF18E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3633C6231AE8D96C00CF18E2 /* Build configuration list for PBXNativeTarget "MLSmoothCornerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				3633C6251AE8D96C00CF18E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
