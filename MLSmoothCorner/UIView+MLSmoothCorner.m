@@ -33,7 +33,9 @@
 - (void)activateMLSmoothCornerWithRadius:(CGFloat)radius andBackgroundColor:(UIColor*)color andShouldRasterize:(BOOL)shouldRasterize
 {
     [self setLayerCornerRadius:radius];
-    [self setLayerBackgroundColor:color];
+    if (color) {
+        [self setLayerBackgroundColor:color];
+    }
     [self setLayerShouldRasterize:shouldRasterize];
 }
 
