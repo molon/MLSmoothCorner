@@ -37,7 +37,7 @@
 //            label.backgroundColor = [UIColor grayColor];
 //            label.layer.cornerRadius = 4.0f;
 //            label.clipsToBounds = YES;
-#warning 使用这一句立马性能不同
+#warning activate smooth corner
             [label activateMLSmoothCornerWithRadius:4.0f andBackgroundColor:[UIColor grayColor] andShouldRasterize:YES];
             
             [self addSubview:label];

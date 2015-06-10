@@ -91,14 +91,14 @@
 				3633C6051AE8D96C00CF18E2 /* AppDelegate.m */,
 				3633C6071AE8D96C00CF18E2 /* ViewController.h */,
 				3633C6081AE8D96C00CF18E2 /* ViewController.m */,
-				3633C60A1AE8D96C00CF18E2 /* Main.storyboard */,
-				3633C60D1AE8D96C00CF18E2 /* Images.xcassets */,
-				3633C60F1AE8D96C00CF18E2 /* LaunchScreen.xib */,
-				3633C6001AE8D96C00CF18E2 /* Supporting Files */,
 				368A343B1AE8DF030002B059 /* Temp2TableViewCell.h */,
 				368A343C1AE8DF030002B059 /* Temp2TableViewCell.m */,
 				368A343E1AE8E1A70002B059 /* UIView+MLSmoothCorner.h */,
 				368A343F1AE8E1A70002B059 /* UIView+MLSmoothCorner.m */,
+				3633C60A1AE8D96C00CF18E2 /* Main.storyboard */,
+				3633C60D1AE8D96C00CF18E2 /* Images.xcassets */,
+				3633C60F1AE8D96C00CF18E2 /* LaunchScreen.xib */,
+				3633C6001AE8D96C00CF18E2 /* Supporting Files */,
 			);
 			path = MLSmoothCorner;
 			sourceTree = "<group>";
